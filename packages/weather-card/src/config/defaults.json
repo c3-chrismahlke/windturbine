@@ -1,0 +1,23 @@
+{
+    "thresholds": {
+      "cutInMS": 3,
+      "optimalMinMS": 6,
+      "optimalMaxMS": 12,
+      "nearRatedMinMS": 12,
+      "nearRatedMaxMS": 20,
+      "highWindMinMS": 20,
+      "highWindMaxMS": 25,
+      "cutOutMS": 25,
+      "energyBaselineMS": 10
+    },
+    "defaults": {
+      "days": 3,
+      "units": "metric",
+      "apiUrl": "/api/weather",
+      "compact": true,
+      "showTimezone": false
+    },
+    "fetch": {
+      "ssrBaseOrigin": "http://localhost"
+    }
+  }

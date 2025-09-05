@@ -1,0 +1,18 @@
+{
+    "name": "@your-scope/weather-api",
+    "version": "0.1.0",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "exports": "./dist/index.js",
+    "scripts": {
+      "build": "tsup src/index.ts --format cjs --dts",
+      "docs": "typedoc --options typedoc.json",
+      "examples": "tsx examples/node/fetch.ts"
+    },
+    "devDependencies": {
+      "typescript": "^5",
+      "tsup": "^8",
+      "typedoc": "^0.26.5",
+      "tsx": "^4.19.0"
+    }
+  }

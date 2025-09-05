@@ -1,0 +1,14 @@
+/* src/styles/globals.scss */
+:root {
+  --card-gap: 16px;
+}
+
+html,
+body,
+#__next {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}

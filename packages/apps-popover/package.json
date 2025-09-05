@@ -1,0 +1,28 @@
+{
+  "name": "@your-scope/apps-popover",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": "./dist/index.js",
+  "scripts": {
+    "build": "tsup src/index.tsx --format esm --dts"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18",
+    "@mui/material": "^7.3.1",
+    "@your-scope/anchor-popover": "*"
+  },
+  "dependencies": {
+    "@your-scope/anchor-popover": "^0.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "tsup": "^8",
+    "@swc/core": "^1.13.5"
+  }
+}
+
+
